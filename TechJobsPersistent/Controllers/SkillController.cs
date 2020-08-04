@@ -33,7 +33,7 @@ namespace TechJobsPersistent.Controllers
             Skill skill = new Skill();
             return View(skill);
         }
-
+        
         [HttpPost]
         public IActionResult Add(Skill skill)
         {
